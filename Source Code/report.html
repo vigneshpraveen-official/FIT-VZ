@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Page</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+    <div class="report-container">
+        <header>
+            <div class="nav-icons">
+                <a href="home.html"> <button onclick="navigate('home')"><img src="icons/home.png" alt="Home"></button> </a>
+                <a href="report.html"> <button onclick="navigate('documents')"><img src="icons/report.png" alt="Report"></button> </a>
+                <a href="medicines.html"> <button onclick="navigate('medicine')"><img src="icons/medicine.png" alt="Medicine"></button> </a>
+                <a href="settings.html"> <button onclick="navigate('settings')"><img src="icons/settings.png" alt="Settings"></button> </a>
+            </div>
+            <div class="username-section">
+                <a href="user.html" style="text-decoration: none;"> 
+                    <span id="username">username</span> 
+                </a>
+                <img src="icons/profile.jpeg" alt="Profile Picture" class="profile-pic">
+            </div>
+        </header>
+
+        <div class="report-list">
+            <!-- <div class="report-item">
+                <p><strong>Dr.xxx</strong> from <strong>yyy hospital</strong></p>
+                <p>Issue: Stomach Pain</p>
+                <div class="report-time">
+                    <a href="medicines.html"> <img src="icons/pill.png" alt="Medicine Icon"> </a>
+                    <span>29 sep, 7:00pm</span>
+                </div>
+            </div>
+
+            <div class="report-item">
+                <p><strong>Dr.xxx</strong> from <strong>yyy hospital</strong></p>
+                <p>Issue: Knee Pain</p>
+                <div class="report-time">
+                    <a href="medicines.html"> <img src="icons/pill.png" alt="Medicine Icon"> </a>
+                    <span>12 sep, 7:00pm</span>
+                </div>
+            </div> -->
+
+            <div class="no_report">
+                <div class="pill-icon">
+                    <img src="icons/pill.png" alt="Pill" height="100px" width="100px">
+                    <p class="medicine-message">You have not uploaded any reports</p>
+                </div>
+                </div>
+
+            <div class="add_report">
+                <button id="add_report_btn" class="add_report_btn">+ ADD REPORT</button>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>©Copyright 2024 - Fit VZ</p>
+        </footer>
+    </div>
+
+    <script src="report.js"></script>
+</body>
+</html>

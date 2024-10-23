@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 45px;
+}
+
+.profile-container {
+    background-color: #ffffff;
+    min-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Aligns the buttons vertically */
+}
+
+.nav-icons button {
+    background: none;
+    border: none;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-icons img {
+    width: 32px; /* Set a uniform width for the images */
+    height: 32px; /* Set a uniform height for the images */
+    object-fit: contain; /* Ensures that the aspect ratio is maintained */
+}
+
+
+.username-section {
+    display: flex;
+    align-items: center;
+}
+
+.username-section span {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.profile-pic {
+    width: 32px; /* Same width as other icons */
+    height: 32px; /* Same height as other icons */
+    border-radius: 50%; /* To make the image circular */
+    object-fit: cover; /* Ensures the image covers the container evenly */
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.personal-info h2, .medical-info h2, .scans-section h2 {
+    margin-bottom: 10px;
+}
+
+.qr-section img {
+    width: 60px;
+    height: 60px;
+}
+
+.medical-info, .scans-section, .personal-info {
+    margin-top: 20px;
+}
+
+.scan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scan button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e0e0e0;
+}

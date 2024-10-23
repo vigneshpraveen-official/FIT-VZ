@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="profile-container">
+        <header>
+            <div class="nav-icons">
+                <a href="home.html"> <button onclick="navigate('home')"><img src="icons/home.png" alt="Home"></button> </a>
+                <a href="report.html"> <button onclick="navigate('documents')"><img src="icons/report.png" alt="Report"></button> </a>
+                <a href="medicines.html"> <button onclick="navigate('medicine')"><img src="icons/medicine.png" alt="Medicine"></button> </a>
+                <a href="settings.html"> <button onclick="navigate('settings')"><img src="icons/settings.png" alt="Settings"></button> </a>
+            </div>
+            
+            <div class="username-section">
+                <a href="user.html" style="text-decoration: none;"> 
+                    <span id="username">username</span> 
+                </a>
+                <img src="icons/profile.jpeg" alt="Profile Picture" class="profile-pic">
+            </div>
+        </header>
+
+        <div class="info-section">
+            <div class="personal-info">
+                <h2>Personal Info:</h2>
+                <p>Name: xxx</p>
+                <p>Number: 9500089074</p>
+                <p>Email: xxx@gmail.com</p>
+                <p>Emergency Number: 9000000009</p>
+                <p>Age: 29</p>
+            </div>
+
+            <!-- <div class="qr-section">
+                <img src="qr-placeholder.png" alt="QR Code">
+                <p>Unique ID: #1290009</p>
+            </div> -->
+        </div>
+
+        <div class="medical-info">
+            <h2>Medical Info:</h2>
+            <p>Blood: O+ve</p>
+            <p>Sugar: No</p>
+            <p>Caner: No</p>
+            <p>Allergies: Peanut Allergy</p>
+            <p>Asthma: No</p>
+            <p>Nerve Problems: No</p>
+            <p>Disabilities: None</p>
+            <p>Blood Level: Normal</p>
+        </div>
+
+        <div class="scans-section">
+            <h2>Scans:</h2>
+            <div class="scan">
+                <p>CT Scan - 29 Sep</p><button>View</button>
+            </div>
+            <div class="scan">
+                <p>Blood Test - 19 Sep</p><button>View</button>
+            </div>
+            <div class="scan">
+                <p>MRI Scan - 10 July</p><button>View</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>©Copyright 2024 - Fit VZ</p>
+        </footer>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+</html>

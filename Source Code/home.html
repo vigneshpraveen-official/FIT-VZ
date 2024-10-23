@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="home-container">
+        <header>
+            <div class="nav-icons">
+                <a href="home.html"> <button onclick="navigate('home')"><img src="icons/home.png" alt="Home"></button> </a>
+                <a href="report.html"> <button onclick="navigate('documents')"><img src="icons/report.png" alt="Report"></button> </a>
+                <a href="medicines.html"> <button onclick="navigate('medicine')"><img src="icons/medicine.png" alt="Medicine"></button> </a>
+                <a href="settings.html"> <button onclick="navigate('settings')"><img src="icons/settings.png" alt="Settings"></button> </a>
+            </div>
+            
+            <div class="username-section">
+                <a href="user.html" style="text-decoration: none;"> 
+                    <span id="username">username</span> 
+                </a>
+                <img src="icons/profile.jpeg" alt="Profile Picture" class="profile-pic">
+            </div>
+            
+
+        </header>
+
+        <div class="date-navigation">
+            <button class="date-btn active">29 sep</button>
+            <button class="date-btn">30 sep</button>
+            <button class="date-btn">01 oct</button>
+            <button class="date-btn">02 oct</button>
+            <button class="date-btn">03 oct</button>
+            <button class="date-btn">04 oct</button>
+            <button class="date-btn">05 oct</button>
+            <button class="date-btn">06 oct</button>
+            <button class="date-btn">07 oct</button>
+            <button class="date-btn">08 oct</button>
+        </div>
+
+        <div class="medicine-section">
+
+            <div class="medicines-list">
+                <!-- <div class="medicine-item">
+                    <p class="medicine-name">Rifaget 20g</p>
+                    <div class="medicine-details">
+                        <span class="medicine-time">Night</span>
+                        <span class="medicine-food">Before Food</span>
+                    </div>
+                </div> -->
+            <div class="no_medicine">
+            <div class="pill-icon">
+                <img src="icons/pill.png" alt="Pill" height="100px" width="100px">
+                <p class="medicine-message">You have no medicine to take today</p>
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <!-- <p>You have an appointment with Dr. xxx from yyy hospital at 7:00pm</p> -->
+            <p>©Copyright 2024 - Fit VZ</p>
+        </footer>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
